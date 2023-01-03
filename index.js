@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "https://rragul.github.io/chat-app-frontend/",
+        origin: "https://rragul.github.io/",
         methods: ["GET", "POST"],
     },
 });
